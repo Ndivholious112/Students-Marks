@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Marks Calculations</title>
+    <link href="./style.css" rel="stylesheet"> 
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Students Marks Calculations</h1>
+    <h2>Student Marks Information</h2>
+
+    <form>
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" placeholder="Enter student name"><br>
+
+        <label for="test1">Test Mark 1:</label>
+        <input type="text" id="test1" placeholder="Enter test 1 mark"><br>
+
+        <label for="test2">Test Mark 2:</label>
+        <input type="text" id="test2" placeholder="Enter test 2 mark"><br>
+
+        <label for="exam">Exam Mark:</label>
+        <input type="text" id="exam" placeholder="Enter exam mark"><br>
+
+        <input type="button" value="Calculate" onclick="calculate()">
+    </form>
+
+    <p id="result"></p>
+</body>
+</html>
